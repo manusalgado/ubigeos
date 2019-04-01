@@ -22,6 +22,7 @@ function splitPlaces(value) {
 
 app.get('/cities', (req, res) => {
 
+
     const fileContent = fs.readFileSync(__dirname + '/ubigeos.txt', 'utf8');
     console.log(fileContent.split('\n'));
     
