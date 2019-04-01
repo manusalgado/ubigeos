@@ -29,7 +29,7 @@ class Table extends React.Component {
         return (
             <div>
                 <h2>Departamento</h2>
-                <table>
+                <table className='responsive-table'>
                     <thead>
                     <tr>
                         <th>Código</th>
@@ -50,7 +50,7 @@ class Table extends React.Component {
                     </tbody>
                 </table>
                 <h2>Provincia</h2>
-                <table>
+                <table className='responsive-table'>
                     <thead>
                     <tr>
                         <th>Código</th>
@@ -71,7 +71,7 @@ class Table extends React.Component {
                     </tbody>
                 </table>
                 <h2>Distrito</h2>
-                <table>
+                <table className='responsive-table'>
                     <thead>
                     <tr>
                         <th>Código</th>
