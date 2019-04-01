@@ -16,7 +16,9 @@ class Table extends React.Component {
                     provincia: response.data.provincia,
                     distrito: response.data.distrito,
                 } )
-                 console.log(this.state)
+                 console.table(this.state.departamento)
+                 console.table(this.state.provincia)
+                 console.table(this.state.distrito)
              })
              .catch(error => {
                  console.warn(error); 
